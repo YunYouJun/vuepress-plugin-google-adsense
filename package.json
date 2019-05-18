@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-plugin-google-adsense",
+  "version": "0.0.1",
+  "description": "google-adsense plugin for vuepress",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YunYouJun/vuepress-plugin-google-adsense.git"
+  },
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "google",
+    "adsense"
+  ],
+  "author": "YunYouJun <me@yunyoujun.cn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YunYouJun/vuepress-plugin-google-adsense/issues"
+  },
+  "homepage": "https://github.com/YunYouJun/vuepress-plugin-google-adsense#readme"
+}
