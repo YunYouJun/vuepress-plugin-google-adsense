@@ -7,9 +7,10 @@ export default () => {
       el.src = src
       p = document.getElementsByTagName(tag)[0]
       p.parentNode.insertBefore(el, p)
-    })('script', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+    })('script', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 
-    (adsbygoogle = window.adsbygoogle || []).push({
+    var adsbygoogle = window.adsbygoogle || []
+    adsbygoogle.push({
       google_ad_client: GOOGLE_AD_CLIENT,
       enable_page_level_ads: ENABLE_PAGE_LEVEL_ADS
     })
