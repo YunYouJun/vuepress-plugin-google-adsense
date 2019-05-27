@@ -2,6 +2,10 @@
 
 > Google adsense plugin for vuepress
 
+[![npm](https://img.shields.io/npm/v/vuepress-plugin-google-adsense.svg)](https://www.npmjs.com/package/vuepress-plugin-google-adsense)
+[![download](https://img.shields.io/npm/dt/vuepress-plugin-google-adsense.svg)](https://npmcharts.com/compare/vuepress-plugin-google-adsense?minimal=true)
+[![GitHub license](https://img.shields.io/github/license/YunYouJun/vuepress-plugin-google-adsense.svg)](https://github.com/YunYouJun/vuepress-plugin-google-adsense/blob/master/LICENSE)
+
 ## Install
 
 ```sh
