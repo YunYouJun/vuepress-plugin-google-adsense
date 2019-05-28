@@ -1,4 +1,4 @@
-export default ({ router }) => {
+export default () => {
   // Google adsense integration
   if (process.env.NODE_ENV === 'production' && GA_ID && typeof window !== 'undefined') {
     (function (i, s, o, g, r, a, m) {
