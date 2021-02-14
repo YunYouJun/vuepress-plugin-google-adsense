@@ -25,10 +25,10 @@ module.exports = {
     [
       "vuepress-plugin-google-adsense",
       {
-        ad_client: "ca-pub-2245427233262012" // replace it with your ad_client
-      }
-    ]
-  ]
+        ad_client: "ca-pub-2245427233262012", // replace it with your ad_client
+      },
+    ],
+  ],
 };
 ```
 
@@ -60,10 +60,10 @@ module.exports = {
       {
         "data-ad-client": "ca-pub-2245427233262012",
         async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      }
-    ]
-  ]
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      },
+    ],
+  ],
 };
 ```
 
@@ -73,9 +73,7 @@ One advantage of plugin is that it can decide whether to show by [ctx.isProd](ht
 
 ## Options
 
-### ad_client
-
-- Type: `string`
-- Default: `undefined`
-
-Provide the Google Adsense ID to enable integration.
+| Name     | Type    | Required | Default   | Description                                          |
+| -------- | ------- | -------- | --------- | ---------------------------------------------------- |
+| adClient | string  | true     | undefined | Provide the Google Adsense ID to enable integration. |
+| adsTxt   | boolean | false    | false     | Whether to generate ads.txt                          |

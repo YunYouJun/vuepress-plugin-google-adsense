@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-google-adsense",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "google-adsense plugin for vuepress",
   "main": "index.js",
   "repository": {
