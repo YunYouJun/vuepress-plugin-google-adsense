@@ -8,7 +8,6 @@ const path = require("path");
  * @param {string} adClient
  */
 module.exports = (ctx, adClient) => {
-  console.log(ctx.outDir);
   const filePath = path.resolve(ctx.outDir, "ads.txt");
   const pubId = adClient.startsWith("ca-") ? adClient.slice(3) : adClient;
   const adsTxtContent = `google.com, ${pubId}, DIRECT, f08c47fec0942fa0`;
